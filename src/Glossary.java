@@ -15,11 +15,11 @@ public class Glossary {
             if (def.equals("ZZZ")) break;
         }
 
+        /*
         for (String key : glossary.keySet()) {
             System.out.println(key);
             System.out.println(glossary.get(key));
         }
-
-
+         */
     }
 }

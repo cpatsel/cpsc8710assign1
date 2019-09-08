@@ -1,0 +1,11 @@
+dictionary
+random definition
+random
+testing glossary
+glossary
+longer test definition to test the glossary program
+program
+the thing that we are trying to run
+definition
+the meaning of a word
+ZZZ
