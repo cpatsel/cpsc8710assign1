@@ -14,7 +14,12 @@ public class Glossary {
             glossary.put(word, def);
             if (def.equals("ZZZ")) break;
         }
-
+        HtmlPrinter printer = new HtmlPrinter(glossary);
+        printer.writeHeader();
+        printer.writeIndex();
+        printer.writeEntries();
+        printer.writeFooter();
+        printer.close();
         /*
         for (String key : glossary.keySet()) {
             System.out.println(key);
